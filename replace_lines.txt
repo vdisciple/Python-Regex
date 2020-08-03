@@ -1,0 +1,8 @@
+cluster.name: aiops
+node.name: host1.lvit.net
+network.host: 0.0.0.0
+http.port: 9200
+discovery.zen.ping.unicast.hosts: ["host1.lvit.net", "host02.lvit.net", "host3.lvit.net"]
+discovery.zen.minimum_master_nodes: 1
+gateway.recover_after_nodes: 1
+
